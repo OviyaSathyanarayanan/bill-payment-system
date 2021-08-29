@@ -1,0 +1,314 @@
+html,body{
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+    font-family:inherit;
+    font-size: 20px;
+    overflow: hidden;
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+    font-family: 'Ubuntu', sans-serif;
+}
+header{
+    height:10%;
+    background-color: black;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+.main {
+    background: linear-gradient(to bottom, #4d4d4d, #f2f2f2);
+    width: 400px;
+    height: 400px;
+    margin: 10em auto; 
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.container {
+	height:85%;
+    width: 40%;
+    color: white;
+    font-size:20px;
+    margin-left: 28%;
+    background: linear-gradient(to bottom, #808080, #cccccc);
+    border-radius: 1.05em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.register {
+	height:75%;
+    width: 30%;
+    color: white;
+    font-size:20px;
+    margin-left: 35%;
+    margin-top: 5%;
+    background: linear-gradient(to bottom, #808080, #cccccc);
+    border-radius: 1.05em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+.vendor-info{
+	height:85%;
+    width: 30%;
+    color: white;
+    font-size:20px;
+    margin-left: 35%;
+    background: linear-gradient(to bottom, #808080, #cccccc);
+    border-radius: 1.05em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
+#head {
+    color: #e6b800;
+    font-weight: bold;
+    font-size: 30px;
+}
+.sign {
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 25px;
+}
+.title {
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 25px;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}   
+.user,.pass{
+    width: 76%;
+    color: rgb(38, 50, 56);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1px;
+    background: rgba(136, 126, 126, 0.04);
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    box-sizing: border-box;
+    border: 2px solid rgba(0, 0, 0, 0.02);
+    margin-left: 60px;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+    
+.inputForm {
+    padding-top: 4px;
+}
+   
+.user:focus, .pass:focus {
+    border: 2px solid rgba(0, 0, 0, 0.18);   
+}
+    
+.submit {
+    cursor: pointer;
+    border-radius: 5em;
+    color: black;
+    background: linear-gradient(to right, #e6b800, #ffe680);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+}
+a {
+    text-shadow: 0px 0px 3px rgba(117, 117, 117, 0.12);
+    color: #e6b800;
+    text-decoration: underline;
+}
+#edit a{
+	font-weight: 700;
+    font-size: 20px;
+    color: #000000;
+    text-decoration: underline;
+}  
+h1{
+    margin-left: 40%;
+    color: white;
+    font-size: 50px;
+}
+.content{
+    height:80%;
+    color: white;
+    font-size:20px;
+    margin-left: 5%;
+}
+#log-tab, #log-tab td{
+    padding: 10px;
+}
+#user-tab,#user-tab  td{
+    border-collapse: collapse;
+    margin-left: 5%;
+}
+#user-tab td{
+    padding: 15px;
+    padding-top: 5px;
+    padding-right:40px;
+    font-size:18px;
+    color: #000000;
+}
+#view-tab td{
+    padding-top: 20px;
+    padding-left:70px;
+}
+.scrolldetail{
+	overflow: scroll;
+	overflow-x: hidden;
+	height: 600px;
+}
+input,select{
+    font-size:15px;
+}
+#login{
+    color: white;
+    font-size: 25px;
+    float: right;
+    padding-right: 4%;
+    padding-top: 2%;
+    font-family:Verdana;
+}
+
+.err{
+    font-size: 17px;
+    color:  #ffffff;
+    margin-left: 30%;
+    box-sizing: border-box;
+}
+.error{
+    font-size: 15px;
+    color:  #ffffff;
+}
+
+#search-box{
+    box-sizing: border-box;
+}
+#myInput {
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 50%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    margin-left: 25%;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#myUL {
+    list-style-type: none;
+    padding: 12px 20px 12px 40px;
+    margin-left: 24%;
+    width: 50%;
+}
+
+#myUL li a {
+     border: 1px solid #ddd;
+     background-color: #f6f6f6;
+     padding: 12px;
+     text-decoration: none;
+     font-size: 18px;
+     color: black;
+     display: block;
+}
+
+#myUL li a:hover {
+     background-color: #eee;
+}
+
+.dropbtn {
+     background-color: #4CAF50;
+     color: white;
+     padding: 16px;
+     font-size: 16px;
+     border: none;
+     cursor: pointer;
+}
+
+.dropdown {
+     position: relative;
+     display: inline-block;
+}
+
+.dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     min-width: 160px;
+     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+     z-index: 1;
+}
+
+.dropdown-content a {
+     color: black;
+     padding: 12px 16px;
+     text-decoration: none;
+     display: block;
+}
+
+.dropdown-content a:hover {
+	background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn .dropbtn:focus {
+    background-color: #3e8e41;
+}
+.dropbtn{
+    cursor: pointer;
+    border-radius: 5em;
+    width:15em;
+    color: black;
+    background: linear-gradient(to right, #e6b800, #ffe680);
+    border: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 35%;
+    font-size: 15px;
+    box-shadow: 0 0 20px 1px rgba(0, 0, 0, 0.04);
+    text-align:center;
+}
+
+h2{
+    padding-top:50px;
+    margin-left: 20%;
+    color: white;
+    font-size: 25px;
+}
+
+#myInput:focus {
+	outline: 3px solid #ddd;
+}
+
+.show {
+	display: block;
+}
+
+#order{
+    padding-top:50px;
+    margin-left: 10%;
+    color: white;
+    font-size: 25px;
+}
+#msg{
+    padding-top:300px;
+    margin-left:270px;
+}
+
+.payment {
+    background: linear-gradient(to bottom, #4d4d4d, #f2f2f2);
+    width: 500px;
+    height: 400px;
+    margin: 10em auto; 
+    border-radius: 1.5em;
+    box-shadow: 0px 11px 35px 2px rgba(0, 0, 0, 0.14);
+}
